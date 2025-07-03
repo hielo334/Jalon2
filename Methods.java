@@ -124,7 +124,7 @@ public class Methods {
         return nouvelleListe;
     }
 
-    // Fonction utilitaire pour obtenir le type de consultation écrit en entier et non BS pour bilan de santé par ex
+    // Fonction utilitaire pour obtenir le type de consultation sans les initiales: "bilan de santé" pour "BS"
     private static String getTypeConsultation(String code) {
         switch (code) {
             case "BS": return "Bilan de santé";
