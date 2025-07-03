@@ -29,7 +29,7 @@ public class Utils {
         "25-05", "14-07", "15-08", "01-11", "11-11", "25-12"
     );
 
-    // Fonction pour valider la date
+    // Fonction pour valider la date.
     public static boolean validerDate(String dateStr) {
         SimpleDateFormat sdf = new SimpleDateFormat("DD-MM-yyyy HH:mm");
         sdf.setLenient(false);

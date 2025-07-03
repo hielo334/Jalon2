@@ -10,7 +10,7 @@ public class Main {
         
         System.out.println("Bienvenue au Cabinet Médical Hypocamp");
         
-        
+        // Menu
         while (true) {
             System.out.println("\nMenu Principal:");
             System.out.println("1. Lister tous les rendez-vous");
